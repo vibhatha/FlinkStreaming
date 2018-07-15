@@ -1,0 +1,3 @@
+Hello Flink Batch Example.
+This is created by Vibhatha using a tutorial in data-flair training.
+Let's see how it goes.
