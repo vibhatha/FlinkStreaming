@@ -32,7 +32,6 @@ public class LibSVM implements FlatMapFunction<String, Tuple1<String>> {
                 record += feature + ",";
             }
         }
-        LOG.info((values.length - 1) + " ? " + this.features);
         if((values.length-1) < this.features) {
             int diff = this.features - (values.length-1);
             for (int j = 0; j < diff; j++) {
