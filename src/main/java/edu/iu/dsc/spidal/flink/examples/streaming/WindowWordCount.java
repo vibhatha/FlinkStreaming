@@ -26,8 +26,8 @@ public class WindowWordCount {
                 .sum(1);
 
         dataStream.print();
-        dataStream.writeAsCsv("/home/vibhatha/github/dsc-spidal-forks/FlinkPOC/data/output/streaming-output.csv");
-        dataStream.writeAsText("/home/vibhatha/github/dsc-spidal-forks/FlinkPOC/data/output/streaming-output.txt");
+        dataStream.writeAsCsv("/home/vibhatha/github/FlinkStreaming/data/output/streaming-output.csv");
+        dataStream.writeAsText("/home/vibhatha/github/FlinkStreaming/data/output/streaming-output.txt");
 
         env.execute("Window WordCount");
     }
